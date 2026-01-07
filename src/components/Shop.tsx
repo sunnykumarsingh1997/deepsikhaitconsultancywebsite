@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ShoppingCart, Zap, Book, Database, Bot } from 'lucide-react';
+import { ShoppingCart, Zap, Book, Database } from 'lucide-react';
 import ContactModal from './ContactModal';
 
 const products = [
@@ -27,14 +27,6 @@ const products = [
         icon: <Book className="w-12 h-12 text-cyber-purple" />,
         description: 'The sacred text of VEO 3 architecture. Only for the initiated.',
         tags: ['MANUAL', 'SECRET', 'VEO3']
-    },
-    {
-        id: 4,
-        title: 'Custom AI Agent',
-        price: '$2,500',
-        icon: <Bot className="w-12 h-12 text-cyber-cyan" />,
-        description: 'Custom AI Agent training, Voice AI, and Email Automation. Boost sales and simplify business automation with moderate-level customizations.',
-        tags: ['AI AGENT', 'VOICE', 'AUTOMATION']
     }
 ];
 
